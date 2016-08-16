@@ -30,7 +30,7 @@ class PlacesList extends Component {
         <li className="placesLI" 
             style={{"listStyleType": "none"}}
             key={place.place_id} >
-          <h4>{ place.name } <small>{ place.vicinity }</small></h4>
+          <p>{ place.name } <small>{ place.vicinity }</small></p>
           <p>{ place.rating }</p>
         </li>
       );
@@ -41,7 +41,7 @@ class PlacesList extends Component {
     // console.log('ActivePlaces', this.props.activePlaces);
     return (
       <div id="placesContainer">
-        <h1>Places List Container</h1>
+        <h3>Places List Container</h3>
         <ul className="placesList">
           { this.props.activePlaces.length && this.renderList() }
         </ul>

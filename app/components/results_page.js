@@ -37,25 +37,26 @@ export default class Results extends Component {
     return (
       <div>
         <Banner />        
-        <div id="appContainer" className="appContainer">
+        <div className="u-full-width" id="appContainer">
+          //id="jobMain"
 
-          <div id="jobMain">
-            <div id="jobResultsPane">
+            //id="jobResultsPane"
+            <div className="four columns">
               <div>
                 <GMap />
                 <b>Select A Job!</b>
               </div>
               <JobList />
             </div>
-            
-            <div id="jobInfoBody">           
+            //id="jobInfoBody"
+            <div className="eight columns">
               <JobDetail /> 
               <div className="jobInfoBottomBlock">            
                 <RetaurantList />
                 <PlacesList />
               </div>
             </div>
-          </div>
+
         </div>        
       </div>
     );

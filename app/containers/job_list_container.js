@@ -35,8 +35,8 @@ class JobList extends Component {
 
   render() {
     return (
-      <div id="jobsContainer" className="jobsPaneLeft appCols">
-        <ul className="jobsList">
+      <div className="container"  id="jobsContainer">
+        <ul className="twelve column" id="jobsList">
           { this.renderList() }
         </ul>
       </div>

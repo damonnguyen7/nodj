@@ -12,13 +12,13 @@ class JobDetail extends Component {
 
   render() {
     if (!this.props.job) {
-      return <h1>Job</h1>;
+      return <h2>Job</h2>;
     }
     
     return (
       <div>
-        <h1>{ this.props.job.jobtitle }</h1>
-        <h2>{ this.props.job.company }</h2> 
+        <h2>{ this.props.job.jobtitle }</h2>
+        <h3>{ this.props.job.company }</h3> 
         <p>{ this.props.job.formattedRelativeTime }</p>
         <p>{ this.props.job.formattedLocation }</p>
         <blockquote>{ this.tagFreeSnippet(this.props.job.snippet) }</blockquote>

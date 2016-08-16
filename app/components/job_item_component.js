@@ -21,10 +21,12 @@ export default class JobItem extends Component {
   render() {
     return (
       <div>
-      <li className="jobLI" onClick={() => this.props.jobFunc(this.props.job) }>
-          <h2>{ this.parseAndFormatJobTitle(this.props.job.jobtitle) }</h2>
-          <div className="jobLI_MetaInfo">
-            <h6><b>{this.props.job.company || 'Unlisted'}</b></h6>
+      <li id="jobLI" onClick={() => this.props.jobFunc(this.props.job) }>
+          <h4>{ this.parseAndFormatJobTitle(this.props.job.jobtitle) }</h4>
+          <div id="jobLI_MetaInfo">
+            <h5
+            >{this.props.job.company || 'Unlisted'}</h5
+            >
             <i className="daysSincePosted">{ this.parseAndFormatDaysSincePosted(this.props.job.formattedRelativeTime) }</i>
           </div>
         </li>

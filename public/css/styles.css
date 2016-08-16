@@ -6,22 +6,22 @@ html {
 
 body {
   position: relative;
-  width: 100%;
+  /*width: 100%;*/
 }
 
 hr {
-  margin: 0;
+  /*margin: 0;*/
   box-sizing: border-box;
-  border-width: 0;
+  /*border-width: 0;*/
   border-top: 1px solid #E1E1E1;
 }
 
 #app {
-  position: relative;
-  width: 100vw;
-  top: 0;
-  /* bottom: 65px;  */              /* Used to prevent occlusion of body from overlap with Footer */
-  /* padding-bottom: 100px; */      /* Used to prevent occlusion of body from overlap with Footer */
+  /*position: relative;*/
+  /*width: 100vw;*/
+  /*top: 0;*/
+   /*bottom: 65px;                 Used to prevent occlusion of body from overlap with Footer */
+   /*padding-bottom: 100px;        Used to prevent occlusion of body from overlap with Footer */
 }
 
 #appContainer {
@@ -34,25 +34,25 @@ hr {
   margin: 0;
   background: #FFF;
   overflow: hidden;
-  /* box-sizing: border-box; */     /* Potential candidate for inclusion at later point */
+   box-sizing: border-box;      /* Potential candidate for inclusion at later point */
 }
 
 .appCols {  }
 
 #jobMain {
-  position: relative;
-  height: 100%;
+  /*position: relative;*/
+  /*height: 100%;*/
   /* min-height: 700px; */
   /* top: 50%; */
-  padding: 0;
+  /*padding: 0;*/
   /*transform: stranslateY(-50%);*/
 }
 
 #jobResultsPane {
-  position: relative;
+  /*position: relative;*/
   display: inline-block;
-  width: 35%;
-  height: 100%;
+  /*width: 35%;*/
+  /*height: 100%;*/
   min-height: 700px;
   float: left;
   box-sizing: border-box;
@@ -65,11 +65,11 @@ hr {
 #jobInfoBody {
   position: relative;
   display: inline-block;
-  width: 65%;
-  height: 100%;
-  min-height: 700px;
+  /*width: 65%;*/
+  /*height: 100%;*/
+  /*min-height: 700px;*/
   /* padding-left: 25px; */
-  float: right;
+  /*float: right;*/
   /* border: 4px solid blue; */           /* To be removed in future commit */
   box-sizing: border-box;
 }
@@ -77,18 +77,18 @@ hr {
 #jobsContainer {
   position: relative;
   display: block;
-  width: 100%;
-  height: 66%;
+  /*width: 100%;*/
+  /*height: 66%;*/
 }
 
   #jobsContainer::after {
     content: "";
-    position: absolute;
-    width: 100%;
-    height: 15%;
-    max-height: 50px;
-    left: 0;
-    bottom: 0;
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*height: 15%;*/
+    /*max-height: 50px;*/
+    /*left: 0;*/
+    /*bottom: 0;*/
     background: -webkit-linear-gradient(bottom, rgba(236, 236, 236, 1.0) 20%, rgba(236, 236, 236, 0.75) 35%, rgba(236, 236, 236, 0) 75%);
     background:      -o-linear-gradient(bottom, rgba(236, 236, 236, 1.0) 20%, rgba(236, 236, 236, 0.75) 35%, rgba(236, 236, 236, 0) 75%);
     background:         linear-gradient(to top, rgba(236, 236, 236, 1.0) 20%, rgba(236, 236, 236, 0.75) 35%, rgba(236, 236, 236, 0) 75%);
@@ -97,21 +97,21 @@ hr {
   }
 
 #chartContainer {
-  position: relative;
-  display: inline-block;
-  width: 40%;
-  min-height: 200px;
-  float: right;
+  /*position: relative;*/
+  /*display: inline-block;*/
+  /*width: 40%;*/
+  /*min-height: 200px;*/
+  /*float: right;*/
   background: -webkit-linear-gradient(209deg, rgba(95, 20, 181, 0.75) 15%, rgba(119, 29, 229, 0.66) 34%, rgba(119, 29, 221, 0.3) 82%);
   background:      -o-linear-gradient(209deg, rgba(95, 20, 181, 0.75) 15%, rgba(119, 29, 229, 0.66) 34%, rgba(119, 29, 221, 0.3) 82%);
   background:         linear-gradient(299deg, rgba(95, 20, 181, 0.75) 15%, rgba(119, 29, 229, 0.66) 34%, rgba(119, 29, 221, 0.3) 82%);
 }
 
 #jobResultsPane > div:first-child {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 34%;
+  /*position: relative;*/
+  /*display: block;*/
+  /*width: 100%;*/
+  /*height: 34%;*/
   /* pointer-events: none; */
   box-shadow: 0 0 14px 2px rgba(0, 0, 0, 0.2), 0 0 14px 2px rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
@@ -149,19 +149,19 @@ div#overlay {
 #headSection1 {  }
 
 #searchForm { 
-  position: relative;
-  display: inline-block;
-  width: 75%;
-  height: 100%;
-  margin-bottom: 0;
-  float: right;
+  /*position: relative;*/
+  /*display: inline-block;*/
+  /*width: 75%;*/
+  /*height: 100%;*/
+  /*margin-bottom: 0;*/
+  /*float: right;*/
 }
 
-div.box {
-  position: relative; 
-  display: inline-flex;
-  width: 100%;
-  height: 100%;
+div#box {
+  /*position: relative; */
+  /*display: inline-flex;*/
+  /*width: 100%;*/
+  /*height: 100%;*/
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
@@ -174,11 +174,11 @@ div.box {
 }
 
 .bannerCont {
-  position: fixed;
+  /*position: fixed;
   width: 100%;
   height: 6vh;
   top: 0;
-  left: 0;
+  left: 0;*/
   background: -webkit-linear-gradient(231deg, rgba(20,164,181,1) 15%, rgba(20,164,181,0.75) 84%, rgba(20,164,181,0.45) 160%);
   background:      -o-linear-gradient(231deg, rgba(20,164,181,1) 15%, rgba(20,164,181,0.75) 84%, rgba(20,164,181,0.45) 160%);
   background:         linear-gradient(321deg, rgba(20,164,181,1) 15%, rgba(20,164,181,0.75) 84%, rgba(20,164,181,0.45) 160%);
@@ -186,14 +186,14 @@ div.box {
   z-index: 150;
 }
 
-svg.rd3-chart {
+/*svg.rd3-chart {
   position: relative;
   display: block;
   width: 80%;
   margin: auto;
-}
+}*/
 
-.footerCont {
+/*.footerCont {
   position: fixed;
   width: 100%;
   height: 65px;
@@ -201,7 +201,7 @@ svg.rd3-chart {
   left: 0;
   background: #7A7A7A;
   z-index: 100;
-}
+}*/
 
 #mapsContainer + b {
   position: relative;
@@ -216,29 +216,29 @@ svg.rd3-chart {
   background: -webkit-linear-gradient(231deg, rgba(20,164,181,1) 15%, rgba(20,164,181,0.75) 44%, rgba(20,164,181,0.45) 100%);
   background:      -o-linear-gradient(231deg, rgba(20,164,181,1) 15%, rgba(20,164,181,0.75) 44%, rgba(20,164,181,0.45) 100%);
   background:         linear-gradient(321deg, rgba(20,164,181,1) 15%, rgba(20,164,181,0.75) 44%, rgba(20,164,181,0.45) 100%);
-  /* background: #A973E7; */
+  background: #A973E7; 
 }
 
-ul.jobsList {
-  position: relative;
+ul#jobsList {
+  /*position: relative;*/
   width: 100%;
-  height: 100%;
-  margin: 0;
+  /*height: 100%;*/
+  /*margin: 0;*/
   background-color: #ECECEC;
   overflow-x: hidden;
   overflow-y: overlay;
 }
 
-ul.jobsList > div:last-child {
+ul#jobsList > div:last-child {
     margin-bottom: 17.5px;
 }
 
-ul.jobsList > div.noResultsShown {
+ul#jobsList > div.noResultsShown {
     margin-bottom: 0;
 }
 
-li.jobLI,
-ul.jobsList li {
+li#jobLI,
+ul#jobsList li {
   position: relative;
   display: list-item;
   width: 100%;
@@ -252,15 +252,15 @@ ul.jobsList li {
   overflow: hidden;
 }
 
-ul.jobsList li:hover {
+ul#jobsList li:hover {
   background-color: #F1F1F1;
   cursor: pointer;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.3);
   border-left: 12.5px solid #14A4B5;
 }
 
-li.jobLI h2,
-h2.jobListingTitle {
+li#jobLI h4,
+h4.jobListingTitle {
   margin: 0 auto;
   max-height: 60px;
   overflow: hidden;
@@ -273,11 +273,11 @@ h2.jobListingTitle {
   text-overflow: ellipsis;
 }
 
-li.jobLi h6 {
+li#jobLi h6 {
   font: bold 12px/12px Arial, sans-serif;
 }
 
-div.jobLI_MetaInfo {
+div#jobLI_MetaInfo {
   position: relative;
   display: block;
   width: 100%;
@@ -286,8 +286,8 @@ div.jobLI_MetaInfo {
   margin: 0;
 }
 
-.jobLI_MetaInfo h6,
-.jobLI_MetaInfo i {
+#jobLI_MetaInfo h6,
+#jobLI_MetaInfo i {
   display: inline-block;
   position: relative;
   width: 50%;
@@ -295,7 +295,7 @@ div.jobLI_MetaInfo {
   float: left;
 }
 
-.jobLI_MetaInfo i {
+#jobLI_MetaInfo i {
   right: 10px;
   float: right;
   color: #696969;
@@ -330,50 +330,50 @@ button.button-primary:hover {
   background-color: #A7A5A5;
 }
 
-.container-3 {
-  position: relative;
-  width: 65%;
-  height: 100%;
-  vertical-align: middle;
-  white-space: nowrap;
+#container-3 {
+  /*position: relative;*/
+  /*width: 65%;*/
+  /*height: 100%;*/
+  /*vertical-align: middle;*/
+  /*white-space: nowrap;*/
 }
 
-.container-3 + button {
-  position: relative;
-  width: 15%;
-  margin: 0;
-  padding: 0;
-  font-size: 18px;
+#container-3 + button {
+  /*position: relative;*/
+  /*width: 15%;*/
+  /*margin: 0;*/
+  /*padding: 0;*/
+  /*font-size: 18px;*/
   color: #FFF;
   transition: all 0.25s ease-in;              /* color, background */
 }
 
-.container-3 + button:hover {
+#container-3 + button:hover {
   background: rgba(255, 255, 255, 0.89);
   color: #14A4B5;
   /* box-shadow: inset 0 -5px 8px 1px rgba(255, 255, 255, 0.55); */
 }
 
 #searchInputsBoundary {
-  position: relative;
-  display: flex;
-  width: 100%;
-  height: 60%;
-  top: 20%;
-  margin: auto;
+  /*position: relative;*/
+  /*display: flex;*/
+  /*width: 100%;*/
+  /*height: 60%;*/
+  /*top: 20%;*/
+  /*margin: auto;*/
   flex-direction: row;
   align-items: center;
   justify-content: center;
   align-content: center;
 }
 
-.container-3 input.formSearchInpt {
-  width: 40%;
-  height: 100%;
-  margin: 0;
+#container-3 input.formSearchInpt {
+  /*width: 40%;*/
+  /*height: 100%;*/
+  /*margin: 0;*/
   background: #7A7A7A;
   color: #FFF;
-  font-size: 18px;
+  /*font-size: 18px;*/
   letter-spacing: 0.35rem;
   text-indent: 50px;
   border: none;
@@ -383,7 +383,7 @@ button.button-primary:hover {
   transition: all 0.25s ease-in;
 }
 
-.container-3 input.formSearchInpt:last-child {
+#container-3 input.formSearchInpt:last-child {
   border-left: 2.5px solid #FFF;
   -webkit-border-radius: 0 5px 5px 0;
      -moz-border-radius: 0 5px 5px 0;
@@ -401,19 +401,19 @@ button.button-primary:hover {
   background: #2B303B;
 }
 
-.container-3 input:focus::-webkit-input-placeholder {
+#container-3 input:focus::-webkit-input-placeholder {
   font-size: 18px;
 }
 
-.container-3 input:focus::-webkit-input-placeholder {
+#container-3 input:focus::-webkit-input-placeholder {
    font-size: 12px;
    text-indent: 75%; 
 }
 
-.container-3 span {
-  position: absolute;
-  left: 26.5%;
-  margin: 0 10px;
+#container-3 span {
+  /*position: absolute;*/
+  /*left: 26.5%;*/
+  /*margin: 0 10px;*/
   line-height: 4.5vh;
   /* font-size: 2.5rem; */
   z-index: 10;
@@ -421,18 +421,18 @@ button.button-primary:hover {
   transition: all 0.25s ease-in;                    /* left, font-size */
 }
 
-.container-3 input.formSearchInpt:focus + span.icon {
-  position: absolute;
-  left: 1.5%;
-  margin: 0 14px;
+#container-3 input.formSearchInpt:focus + span.icon {
+  /*position: absolute;*/
+  /*left: 1.5%;*/
+  /*margin: 0 14px;*/
   color: #FFF;
-  line-height: 60px;
-  font-size: 3rem;
-  z-index: 10;
+  /*line-height: 60px;*/
+  /*font-size: 3rem;*/
+  /*z-index: 10;*/
 }
 
 div.noResultsShown {
-  position: relative;
+  /*position: relative;*/
   overflow: hidden;
   width: 100%;
   height: 100%;
@@ -444,8 +444,8 @@ div.noResultsShown {
     height: 100%;
     background-image: url("../img/frowny_face-white.png");
     background-size: 75% auto;
-    right: -35%;
-    top: 85%;
+    /*right: -35%;*/
+    /*top: 85%;*/
     background-repeat: no-repeat;
     content: "";
     transform: translateY(-50%);
@@ -473,11 +473,11 @@ h4.noResultsShown {
 input[type='search'] {
   position: relative;
   display: inline-block;
-  width: 50%;
+  /*width: 50%;*/
   /* left: 50%; */
-  margin: auto;
+  /*margin: auto;*/
   /* transform: translateX(-50%); */
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
 }
 
 input[type='search']::-webkit-search-decoration,
@@ -488,27 +488,27 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 input::-webkit-input-placeholder {                  /* Apple Safari / Google Chrome browsers */
-   font: 20px/50px 'Raleway', 'Open Sans', Helvetica, Arial, sans-serif;
-   text-indent: 20px;
+   /*font: 20px/50px 'Raleway', 'Open Sans', Helvetica, Arial, sans-serif;*/
+   /*text-indent: 20px;*/
    color: #FFF;
    opacity: 0.80;
    transition: text-indent 0.25s ease-out;
 }
 input:-moz-placeholder {                            /* Firefox 18- */
-  font: 20px/50px 'Raleway', 'Open Sans', Helvetica, Arial, sans-serif;
-  text-indent: 20px;
+  /*font: 20px/50px 'Raleway', 'Open Sans', Helvetica, Arial, sans-serif;*/
+  /*text-indent: 20px;*/
   color: #FFF;
   opacity: 0.80;
 }
 input::-moz-placeholder {                           /* Firefox 19+ */
-  font: 20px/50px 'Raleway', 'Open Sans', Helvetica, Arial, sans-serif;
-  text-indent: 20px;
+  /*font: 20px/50px 'Raleway', 'Open Sans', Helvetica, Arial, sans-serif;*/
+  /*text-indent: 20px;*/
   color: #FFF;
   opacity: 0.80;
 }
 input:-ms-input-placeholder {                       /* Microsoft (MS) Internet Explorer (IE) */
-  font: 20px/50px 'Raleway', 'Open Sans', Helvetica, Arial, sans-serif;
-  text-indent: 20px;
+  /*font: 20px/50px 'Raleway', 'Open Sans', Helvetica, Arial, sans-serif;*/
+  /*text-indent: 20px;*/
   color: #FFF;
   opacity: 0.80; 
 }
@@ -518,13 +518,13 @@ h2.modalJobTitle {
 }
 
 i.XButton {
-  position: absolute;
-  right: 15px;
-  width: 40px;
-  top: 15px;
-  height: 30px;
+  /*position: absolute;*/
+  /*right: 15px;*/
+  /*width: 40px;*/
+  /*top: 15px;*/
+  /*height: 30px;*/
   background: white;
-  font-size: 50px;
+  /*font-size: 50px;*/
   color: #771DE5;
   line-height: 30px;
   box-sizing: border-box;
@@ -550,17 +550,17 @@ i.XButton:hover {
 
 
 #restaurantContainer {
-  position: relative;
-  display: inline-block;
-  width: 50%;
-  height: 100%;
-  float: left;
+  /*position: relative;*/
+  /*display: inline-block;*/
+  /*width: 50%;*/
+  /*height: 100%;*/
+  /*float: left;*/
   overflow: hidden;
 }
 
 #restaurantContainer > div {
-  position: relative;
-  width: 100%;
+  /*position: relative;*/
+  /*width: 100%;*/
   background-blend-mode: color-dodge;
   height: 15%;
   background: hsl(0, 53%, 52%) url("../img/bckg_hero.png") no-repeat;
@@ -572,42 +572,42 @@ i.XButton:hover {
 }
 
 #restaurantContainer > div img {
-  position: absolute;
-  height: 90%;
-  top: 5%;
-  left: 15px;
+  /*position: absolute;*/
+  /*height: 90%;*/
+  /*top: 5%;*/
+  /*left: 15px;*/
 }
 
 #restaurantContainer > div h1 {
-  position: relative;
-  text-align: right;
-  right: 1.5rem;
-  top: 1rem;
-  font-weight: bolder;
+  /*position: relative;*/
+  /*text-align: right;*/
+  /*right: 1.5rem;*/
+  /*top: 1rem;*/
+  /*font-weight: bolder;*/
 }
 
 p {
-  margin-top: 33.784;
-  margin-bottom: 0px;
-  margin-top: 33.784;
+  /*margin-top: 33.784;*/
+  /*margin-bottom: 0px;*/
+  /*margin-top: 33.784;*/
 }
 
 ul.restaurantList {
-  position: relative;
-  display: block;
+  /*position: relative;*/
+  /*display: block;*/
   width: 100%;
-  height: 90%;
+  /*height: 90%;*/
   background: #ECECEC;
   overflow-y: scroll;
   overflow-x: hidden;
 }
 
 ul.restaurantList li.restaurantLI {
-  position: relative;
-  display: block;
-  width: 100%;
+  /*position: relative;*/
+  /*display: block;*/
+  /*width: 100%;*/
   /* height: 100%; */
-  padding-left: 10px;
+  /*padding-left: 10px;*/
   clear: both;
   list-style-type: none;
   border-bottom: 0.25px ridge #C7C7C7;
@@ -638,81 +638,17 @@ ul.restaurantList li.restaurantLI {
 }
 
 .nameRating > a {
-  display: block;
-  width: 100%;
+  /*display: block;*/
+  /*width: 100%;*/
   text-decoration: none;
 }
 
 #jobInfoBody div.jobInfoBottomBlock {
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 50%;
+  /*position: absolute;*/
+  /*display: block;*/
+  /*width: 100%;*/
+  /*height: 50%;*/
   min-height: 500px;
-  bottom: 0;
+  /*bottom: 0;*/
   /*background: red;*/                  /* To be removed in a future commit */
 }
-
-
-/*  *********************************************
-    *********************************************
-    ********************************************* */  
-
-
-@media only screen
-  and (max-width: 700px) {
-
-  #appContainer { 
-    height: auto;
-    background: transparent;
-  }
-
-  #jobMain {
-    display: flex;
-    flex-direction: column;
-    transform: none;
-  }
-
-  #jobResultsPane,
-  #jobInfoBody {
-    position: relative;
-    display: block;
-    width: 88vw;
-    top: 4vh;
-    margin: 25px auto;
-    background: #FFF;
-    box-shadow: 0 4px 8px 1.5px rgba(0, 0, 0, 0.37);
-  }
-
-  div#jobResultsPane {
-    height: auto;
-    min-height: auto;
-  }
-
-  #mapsContainer {
-    height: 30vh;
-  }
-
-  #searchForm {
-    position: relative;
-    display: block;
-    width: 100%;
-    top: 6vh;
-  }
-
-  #jobsContainer::after {
-
-  }
-
-  .container-3 + button {
-    background: rgb(95, 20, 181);
-  }
-  
-    .container-3 + button:hover {
-      background: #FFF;
-      color: rgb(95, 20, 181);
-    }
-
-}
-
-

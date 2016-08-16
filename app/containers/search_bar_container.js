@@ -42,14 +42,15 @@ class SearchBar extends Component {
 
   render() {
     return (
-      <form id="searchForm" onSubmit={this.onFormSubmit}>
-        <div className="box">
-          <div className="container-3">
+      //id="searchForm"
+      <form className="container" id="searchForm" onSubmit={this.onFormSubmit}>
+        <div id="box">
+          <div id="container-3">
 
-            <div id="searchInputsBoundary">
+            <div className="row">
               <input 
                 id="search" 
-                className="formSearchInpt"
+                className="five columns"
                 type="search" 
                 results="4" 
                 placeholder="Job"
@@ -58,16 +59,16 @@ class SearchBar extends Component {
               
               <input 
                 id="searchLocation"
-                className="formSearchInpt"
+                className="five columns"
                 type="search"
                 results="4"
                 placeholder="City"
                 value={this.state.locationTerm}
                 onChange={this.onLocationInputChange} />
+              <button className="two columns" id="jobSearchSubmitBtn" type="submit">Submit</button>
             </div>
           </div>
 
-          <button id="jobSearchSubmitBtn" type="submit">Submit</button>
         </div>
       </form>
     );
